@@ -1,0 +1,93 @@
+/*
+Default Style
+============================*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/*
+Work Area Style
+======================================================*/
+.how-its-work-content .content-wrap {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+.how-its-work-content .content-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #ee1d23;
+}
+
+.how-its-work-content .content-wrap::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #a7ecf0;
+  z-index: -1;
+}
+
+/*
+Section Title Area Style*/
+.section-title {
+  max-width: 700px;
+  margin: 10px auto 10px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  position: relative;
+  display: block;
+}
+
+.section-title h2:last-child {
+  margin-bottom: 0;
+}
+
+.section-title.white-title span {
+  color: #ffffff;
+}
+
+.section-title.white-title h2 {
+  color: #ffffff;
+}
+
+.section-title.white-title p {
+  color: #ffffff;
+}
+.our-work-area .section-title .top-title {
+  color: #001430;
+}
+
+.footer_section2 {
+  background-color: black;
+  margin-top: 0rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.footer_section2 h5 {
+  color: white;
+}
+.quick li {
+  list-style: none;
+}
+ul.quick {
+  padding: 0px;
+}
+
+.quick a {
+  color: #c3fcf2;
+  text-decoration: none;
+}
