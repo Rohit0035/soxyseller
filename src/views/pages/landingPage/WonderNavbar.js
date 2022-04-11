@@ -20,11 +20,10 @@ export default function WonderNavbar(props) {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div className="my-navbar">
+       <div className="container-fliud">
       <Navbar fixed="fixed" light primary expand="lg">
-        <NavbarBrand
-          style={{ marginRight: "10rem", marginLeft: "5rem" }}
-          className=""
-        >
+        <div className="container">
+        <NavbarBrand>
           {/* <h1 className="text-primary">Buynaa</h1> */}
           <a href="/analyticsDashboard">
             <img src={glogo} alt="" className="st-logo" width={150} />
@@ -33,17 +32,8 @@ export default function WonderNavbar(props) {
         <NavbarToggler onClick={toggle} className="st-tog" />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar style={{ marginLeft: "30rem" }}>
-            <NavItem>
-              <NavLink className="st-nav" href="/pages/register/register">
-                <Button color="primary">REGISTER NOW</Button>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="st-nav" href="/pages/login/login">
-                <Button color="primary">SIGN IN</Button>
-              </NavLink>
-            </NavItem>
-            {/* <NavItem>
+           
+             {/* <NavItem>
               <NavLink className="st-nav" href="/">
                 Home
               </NavLink>
@@ -58,9 +48,9 @@ export default function WonderNavbar(props) {
               <NavLink className="st-nav" href="/productList">
                 Product
               </NavLink>
-            </NavItem> */}
+            </NavItem> 
 
-            {/* <NavItem>
+             <NavItem>
               <NavLink className="st-nav" href="/storeLocator">
                 Store locator
               </NavLink>
@@ -69,15 +59,27 @@ export default function WonderNavbar(props) {
               <NavLink className="st-nav" href="/enquiryForm">
                 Service Request
               </NavLink>
-            </NavItem>*/}
-            {/* <NavItem>
+            </NavItem>
+             <NavItem>
               <NavLink className="st-nav" href="/contactForm">
                 Contact Us
               </NavLink>
-            </NavItem> */}
+            </NavItem>  */}
           </Nav>
         </Collapse>
+            <NavItem className="st-r">
+              <NavLink className="st-nav" href="/pages/register/register">
+                <Button color="primary">REGISTER NOW</Button>
+              </NavLink>
+            </NavItem>
+            <NavItem className="st-r">
+              <NavLink className="st-nav" href="/pages/login/login">
+                <Button color="primary">SIGN IN</Button>
+              </NavLink>
+            </NavItem>
+            </div>
       </Navbar>
+    </div>
     </div>
   );
 }

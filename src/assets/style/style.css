@@ -91,3 +91,19 @@ ul.quick {
   color: #c3fcf2;
   text-decoration: none;
 }
+
+/* rohit css */
+li.st-r.nav-item {
+  list-style: none;
+}
+h1.sttitle {
+  font-size: 50px;
+  margin-bottom: 23px;
+  font-weight: 700;
+}
+img.seller-img {
+  margin-top: 60px;
+}
+.slider-btn {
+  margin-top: 50px;
+}

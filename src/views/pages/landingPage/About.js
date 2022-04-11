@@ -33,11 +33,11 @@ const About = () => {
         <CardGroup className="pcard">
           <Row>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100 ">
                 <img
                   src={logo1}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Role Based Accessibility</CardTitle>
@@ -49,11 +49,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo2}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Customer Management</CardTitle>
@@ -65,11 +65,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo3}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">
@@ -80,11 +80,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo4}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Inventory & Stock Management</CardTitle>
@@ -96,11 +96,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo5}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Automated order workflow</CardTitle>
@@ -109,11 +109,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo6}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Order Billing</CardTitle>
@@ -125,11 +125,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo7}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Purchase Order Management</CardTitle>
@@ -141,11 +141,11 @@ const About = () => {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="p-3 w-100 h-100">
+              <Card className="p-3 w-100">
                 <img
                   src={logo8}
                   alt=""
-                  style={{ width: "90px", height: "12vh" }}
+                  style={{ width: "90px" }}
                 />
                 <CardBody>
                   <CardTitle tag="h5">Visibility</CardTitle>

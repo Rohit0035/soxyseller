@@ -26,21 +26,21 @@ export class Home extends Component {
       <>
         <WonderNavbar />
         <section className="bg-light">
-          <Container fluid>
+          <Container>
             <Row>
-              <Col lg="4">
+              <Col lg="6">
                 <div className="" style={{}}>
                   <div className="slider-item">
                     <div
                       className="slider-text"
-                      style={{ paddingLeft: "50px", paddingTop: "15rem" }}
+                      style={{ paddingLeft: "", paddingTop: "3rem" }}
                     >
-                      <h1 className="font-weight-bold">
-                        Manage <br /> your Stock the <br />
-                        <spn className="text-primary">the right way </spn>
+                      <h1 className="sttitle">
+                        Manage your Stock the 
+                        <spn className="text-primary"> right way </spn>
                       </h1>
                       <p className="font-weight-bold fs-2x">
-                        Do MORE with Buynaa Inventory <br /> Mangement & Billing
+                        Do MORE with Buynaa Inventory  Mangement & Billing
                         Solution
                       </p>
 
@@ -51,14 +51,14 @@ export class Home extends Component {
                   </div>
                 </div>
               </Col>
-              <Col lg="8">
+              <Col lg="6">
                 {" "}
                 <div>
                   <img
                     src={banner2}
                     alt="First slide"
-                    className=""
-                    style={{ width: "60rem", height: "90vh" }}
+                    className="seller-img   "
+                    style={{ width: "100%" }}
                   />
                 </div>
               </Col>
@@ -76,7 +76,7 @@ export class Home extends Component {
         <About />
         <OurVision />
         <OurMission />
-        <FunData />
+        <FunData /> 
         {/* <FooterHeader /> */}
         <Footer />
       </>

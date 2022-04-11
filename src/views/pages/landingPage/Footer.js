@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../assets/style/style.css";
+import logotwo from "../../../assets/img/logo/logotwo.png";
 
 const Footer = () => {
   return (
@@ -18,8 +19,10 @@ const Footer = () => {
           <div className="row">
             <div className="col-xl-3 col-lg-3 col-md-3">
               <div className="footer-widget">
-                <div className="footer_logo text-center">
-                  <h2 className="text-light font-weight-bold">Buynaa</h2>
+                <div className="footer_logo pb-3">
+                <a href="/analyticsDashboard">
+                   <img src={logotwo} alt="" className="st-logo" width={150} />
+                </a>
                 </div>
                 <div className="fw-text ">
                   <div className="footer-contact-list mt-20">
@@ -121,7 +124,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="copyright-text">
-                  Copyright © 2020 Buynaa Ecommerce . All Rights Reserved.
+                  Copyright © 2020 Soxycoin Ecommerce . All Rights Reserved.
                 </div>
               </div>
               <div className="col-md-3">
