@@ -20,6 +20,8 @@ import { history } from "../../../../history";
 import axios from "axios";
 import swal from "sweetalert";
 import { tabsJustified } from "../../../../components/reactstrap/tabs/TabSourceCode";
+import "../../../../assets/style/style.css";
+
 class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -119,11 +121,11 @@ class Login extends React.Component {
           >
             <Col lg="8" md="12" className="p-1">
               <Card className="rounded-0 mb-0 px-2 pb-3 login-tabs-container">
-                <CardHeader className="pb-1">
-                  <img src={glogo} class="img-fluid" alt="..." />
+                <img src={glogo} class="img-fluid" alt="..." className="stlogo" />
+                <CardHeader className="pb-1 mt-2">
                   {/* <img src={glogo} alt="glogo" /> */}
                   <br />
-                  <CardTitle>
+                  <CardTitle className="stct">
                     <h4 className="mb-0">Login</h4>
                   </CardTitle>
                 </CardHeader>

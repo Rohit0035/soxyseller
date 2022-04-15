@@ -141,7 +141,7 @@ class Register extends React.Component {
               <Col lg="8" md="12" className="p-1">
                 <Card className="rounded-0  px-2 pb-3 login-tabs-container">
                   <CardHeader className="pb-1 justify-content-center">
-                    <img src={glogo} class="img-fluid" alt="..." />
+                    <img src={glogo} class="img-fluid" alt="..." className="stlogo" />
                     {/* <img src={glogo} alt="glogo" /> */}
                     <br />
                   </CardHeader>

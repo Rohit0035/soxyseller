@@ -107,3 +107,19 @@ img.seller-img {
 .slider-btn {
   margin-top: 50px;
 }
+img.stlogo {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 31px;
+}
+.stct.card-title {
+  width: 100%;
+}
+.stct.card-title h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+img.stlogo {
+  width: 200px;
+  margin-bottom: 15px;
+}
