@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,sBAAsB;AAEtB,AAAA,iBAAiB,CAAC;EAChB,MAAM,EAAE,KAAK;CACd",
+    "sources": [
+        "recharts.scss"
+    ],
+    "names": [],
+    "file": "recharts.css"
+}

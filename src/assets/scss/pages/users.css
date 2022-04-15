@@ -1,0 +1,53 @@
+/*** User pages ***/
+.users-avatar-shadow {
+  -webkit-box-shadow: 2px 4px 14px 0 rgba(34, 41, 47, 0.4);
+          box-shadow: 2px 4px 14px 0 rgba(34, 41, 47, 0.4);
+}
+
+.actions-dropdown .btn-group .btn {
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+  border-radius: 0.5rem !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.permissions-table td,
+.permissions-table th {
+  padding: 0.5rem;
+}
+
+.users-page-view-table .user-info div {
+  padding: 0.5rem;
+}
+
+.users-page-view-table .user-info .user-info-title {
+  font-size: 16px;
+  min-width: 300px;
+}
+
+@media (max-width: 576px) {
+  .ag-grid-table .ag-paging-panel {
+    height: 160px;
+  }
+  .ag-grid-table .sort-dropdown {
+    margin-bottom: 1rem;
+  }
+}
+
+.photo {
+  height: 120vh;
+  width: 70rem;
+}
+
+#btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=users.css.map */
