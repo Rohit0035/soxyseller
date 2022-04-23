@@ -8,7 +8,7 @@ import FunData from "./FunData";
 import FooterHeader from "./FooterHeader";
 import Footer from "./Footer";
 import { Button, Col, Container, Row } from "reactstrap";
-import banner2 from "../../../assets/img/landing/banner.png";
+import banner from "../../../assets/img/landing/banner.png";
 import "../../../assets/style/style.css";
 import { history } from "../../../history";
 
@@ -37,7 +37,7 @@ export class Home extends Component {
                     >
                       <h1 className="sttitle">
                         Manage your Stock the 
-                        <spn className="text-primary"> right way </spn>
+                        <spn className=""> right way </spn>
                       </h1>
                       <p className="font-weight-bold fs-2x">
                         Do MORE with Buynaa Inventory  Mangement & Billing
@@ -55,7 +55,7 @@ export class Home extends Component {
                 {" "}
                 <div>
                   <img
-                    src={banner2}
+                    src={banner}
                     alt="First slide"
                     className="seller-img   "
                     style={{ width: "100%" }}
