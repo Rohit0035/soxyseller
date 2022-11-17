@@ -41,7 +41,7 @@ export class AddCustomer extends Component {
     e.preventDefault();
 
     axios
-      .post("http://35.154.86.59/api/user/addcustomerbyseller", this.state, {
+      .post("http://44.205.32.29:8000/user/addcustomerbyseller", this.state, {
         headers: {
           "auth-adtoken": localStorage.getItem("auth-adtoken"),
         },

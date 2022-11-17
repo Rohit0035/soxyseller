@@ -251,7 +251,7 @@ class AllUsers extends React.Component {
 
   async componentDidMount() {
     await axios
-      .get("http://35.154.86.59/api/admin/allrole", {
+      .get("http://44.205.32.29:8000/admin/allrole", {
         headers: {
           "auth-adtoken": localStorage.getItem("auth-adtoken"),
         },
@@ -265,7 +265,7 @@ class AllUsers extends React.Component {
   async runthisfunction(id) {
     console.log(id);
     await axios
-      .get(`http://35.154.86.59/api/admin/del_role/${id}`)
+      .get(`http://44.205.32.29:8000/admin/del_role/${id}`)
       .then((response) => {
         console.log(response);
       });

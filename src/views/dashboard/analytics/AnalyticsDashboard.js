@@ -95,7 +95,7 @@ class AnalyticsDashboard extends React.Component {
         console.log(error);
       });
 
-      axios.get("http://35.154.86.59/api/user/totalcustomerbyseller",{
+      axios.get("http://44.205.32.29:8000/api/user/totalcustomerbyseller",{
         headers:{
           "auth-adtoken" : localStorage.getItem("auth-adtoken")
         }

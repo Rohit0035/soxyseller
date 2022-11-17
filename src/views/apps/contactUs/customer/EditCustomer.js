@@ -31,7 +31,7 @@ export class EditCustomer extends Component {
   componentDidMount() {
     let { id } = this.props.match.params;
     axios
-      .get(`http://35.154.86.59/api/user/getonecusByseller/${id}`, {
+      .get(`http://44.205.32.29:8000/user/getonecusByseller/${id}`, {
         headers: {
           "auth-adtoken": localStorage.getItem("auth-adtoken"),
         },
@@ -64,7 +64,7 @@ export class EditCustomer extends Component {
     let { id } = this.props.match.params;
     axios
       .post(
-        `http://35.154.86.59/api/user/editcustomerbyseller/${id}`,
+        `http://44.205.32.29:8000/user/editcustomerbyseller/${id}`,
         this.state,
         {
           headers: {

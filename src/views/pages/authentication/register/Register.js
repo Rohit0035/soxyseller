@@ -40,7 +40,7 @@ class Register extends React.Component {
     console.log(this.state);
 
     axios
-      .post("http://35.154.86.59/api/admin/verifyOtp", {
+      .post("http://44.205.32.29:8000/admin/verifyOtp", {
         mobile: this.state.mobile,
         otp: this.state.otpnumber,
       })
@@ -72,7 +72,7 @@ class Register extends React.Component {
 
     this.setState({ otp: false });
     axios
-      .post("http://35.154.86.59/api/admin/signup", this.state)
+      .post("http://44.205.32.29:8000/admin/signup", this.state)
       .then((response) => {
         console.log(response);
         localStorage.setItem(
@@ -88,7 +88,7 @@ class Register extends React.Component {
           response.data.msg != undefined
         ) {
           axios
-            .post("http://35.154.86.59/api/admin/sendOtp", {
+            .post("http://44.205.32.29:8000/admin/sendOtp", {
               mobile: this.state.mobile,
             })
             .then((response) => {
@@ -113,7 +113,7 @@ class Register extends React.Component {
       });
 
     // axios
-    //   .post("http://35.154.86.59/api/admin/sendOtp", {
+    //   .post("http://44.205.32.29:8000/admin/sendOtp", {
     //     mobile: this.state.mobile,
     //   })
     //   .then((response) => {

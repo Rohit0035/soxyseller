@@ -215,7 +215,7 @@ class AllUsers extends React.Component {
 
   async componentDidMount() {
     await axios
-    .get("http://35.154.86.59/api/user/alluser")
+    .get("http://44.205.32.29:8000/user/alluser")
     .then((response) => {
         let rowData = response.data.data;
         this.setState({ rowData });

@@ -163,7 +163,7 @@ class CustomerList extends React.Component {
 
   async componentDidMount() {
     await axiosConfig
-      .get("http://35.154.86.59/api/user/Customerbysellerbytoken", {
+      .get("http://44.205.32.29:8000/user/Customerbysellerbytoken", {
         headers: {
           "auth-adtoken": localStorage.getItem("auth-adtoken"),
         },
@@ -178,7 +178,7 @@ class CustomerList extends React.Component {
   async runthisfunction(id) {
     console.log(id);
     await axiosConfig
-      .get(`http://35.154.86.59/api/user/delcustomer/${id}`)
+      .get(`http://44.205.32.29:8000/api/user/delcustomer/${id}`)
       .then((response) => {
         console.log(response);
       });

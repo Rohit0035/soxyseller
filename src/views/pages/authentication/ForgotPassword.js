@@ -35,7 +35,7 @@ class ForgotPassword extends React.Component {
     console.log(this.state);
 
     axios
-      .post("http://35.154.86.59/api/admin/verifyOtp", {
+      .post("http://44.205.32.29:8000/admin/verifyOtp", {
         mobile: this.state.mobile,
         otp: this.state.otpnumber,
       })
@@ -66,7 +66,7 @@ class ForgotPassword extends React.Component {
 
     this.setState({ otp: false });
     // axios
-    //   .post("http://35.154.86.59/api/admin/signup", this.state)
+    //   .post("http://44.205.32.29:8000/admin/signup", this.state)
     //   .then((response) => {
     //     console.log(response);
     //     // localStorage.setItem("token", response.data.token);
@@ -80,7 +80,7 @@ class ForgotPassword extends React.Component {
     //   });
 
     axios
-      .post("http://35.154.86.59/api/admin/sendotp", {
+      .post("http://44.205.32.29:8000/admin/sendotp", {
         email: this.state.email,
       })
       .then((response) => {

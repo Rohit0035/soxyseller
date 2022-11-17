@@ -68,7 +68,7 @@ class AddOrder extends React.Component {
   async componentDidMount() {
     //Customer
     axios
-      .get("http://35.154.86.59/api/user/allcustomer", {
+      .get("http://44.205.32.29:8000/user/allcustomer", {
         headers: {
           "auth-token": localStorage.getItem("auth-adtoken"),
         },

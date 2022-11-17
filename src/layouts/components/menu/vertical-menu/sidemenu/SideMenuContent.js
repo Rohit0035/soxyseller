@@ -112,7 +112,7 @@ class SideMenuContent extends React.Component {
   // }
 
   async componentDidMount() {
-    await Axios.get("http://35.154.86.59/api/admin/viewonerole", {
+    await Axios.get("http://44.205.32.29:8000/admin/viewonerole", {
       headers: {
         "auth-adtoken": localStorage.getItem("auth-adtoken"),
       },
@@ -496,7 +496,7 @@ export default SideMenuContent;
 //   };
 
 //   async componentDidMount() {
-//     await Axios.get("http://35.154.86.59/api/admin/viewonerole", {
+//     await Axios.get("http://44.205.32.29:8000/admin/viewonerole", {
 //       headers: {
 //         "auth-adtoken": localStorage.getItem("auth-adtoken"),
 //       },
@@ -522,7 +522,7 @@ export default SideMenuContent;
 //   };
 
 //   async componentDidMount() {
-//     await Axios.get("http://35.154.86.59/api/admin/viewonerole", {
+//     await Axios.get("http://44.205.32.29:8000/admin/viewonerole", {
 //       headers: {
 //         "auth-adtoken": localStorage.getItem("auth-adtoken"),
 //       },

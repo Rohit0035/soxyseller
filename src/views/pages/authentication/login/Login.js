@@ -81,7 +81,7 @@ class Login extends React.Component {
     e.preventDefault();
 
     axios
-      .post("http://35.154.86.59/api/admin/sellerlogin", this.state)
+      .post("http://44.205.32.29:8000/admin/login", this.state)
       .then((response) => {
         console.log(response.data.msg);
 

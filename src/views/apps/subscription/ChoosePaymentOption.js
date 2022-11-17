@@ -25,7 +25,7 @@ export default function ChoosePaymentOption() {
 
   useEffect(() => {
     console.log("useEffect");
-    Axios.get("http://35.154.86.59/api/admin/getoneseller", {
+    Axios.get("http://44.205.32.29:8000/admin/getoneseller", {
       headers: {
         "auth-adtoken": localStorage.getItem("auth-adtoken"),
       },
@@ -38,7 +38,7 @@ export default function ChoosePaymentOption() {
         console.log(error.response);
       });
 
-    Axios.get("http://35.154.86.59/api/admin/rapay/2")
+    Axios.get("http://44.205.32.29:8000/admin/rapay/2")
       .then((response) => {
         console.log(response.data);
         setOrderId(response.data?.order.id);
@@ -71,7 +71,7 @@ export default function ChoosePaymentOption() {
             contact,
           };
           console.log(res);
-          Axios.post("http://35.154.86.59/api/admin/addSubscription", data, {
+          Axios.post("http://44.205.32.29:8000/admin/addSubscription", data, {
             headers: {
               "auth-adtoken": localStorage.getItem("auth-adtoken"),
             },

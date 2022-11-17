@@ -20,7 +20,7 @@ class SidebarHeader extends Component {
             <NavLink to="/analyticsDashboard" className="navbar-brand">
               <div className="brand-logo" />
 
-              <img src={glogo} alt="glogo" width="160px" height="45px" />
+              <img src={glogo} alt="glogo" width="160px" height="" />
             </NavLink>
           </li>
           <li className="nav-item nav-toggle">

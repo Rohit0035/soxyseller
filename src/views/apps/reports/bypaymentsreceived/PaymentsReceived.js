@@ -166,7 +166,7 @@ class PaymentsReceived extends React.Component {
 
   //   async componentDidMount() {
   //     await axiosConfig
-  //       .get("http://35.154.86.59/api/user/allcustomer")
+  //       .get("http://44.205.32.29:8000/user/allcustomer")
   //       .then(response => {
   //         let rowData = response.data.data;
   //         console.log(rowData);
@@ -177,7 +177,7 @@ class PaymentsReceived extends React.Component {
 //   async runthisfunction(id) {
 //     console.log(id);
 //     await axiosConfig
-//       .get(`http://35.154.86.59/api/user/delcustomer/${id}`)
+//       .get(`http://44.205.32.29:8000/user/delcustomer/${id}`)
 //       .then(response => {
 //         console.log(response);
 //       });
